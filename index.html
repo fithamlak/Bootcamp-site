@@ -1,37 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <title>Developer Bootcamp</title>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-drk bg-secondary text-secondary">
-        <div class="container">
-            <a href="#" class="navbar-brand text-white">Developer Bootcamp</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-                <svg xmlns="http://www.w3.org/2000/svg" width ="32" height = "32" class="bi" fill = "white" viewBox = "0 0 16 16">
-                  <path full-rule d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
-                </svg>
-            </button>
-            <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="#learn" class="nav-link text-white">What you'll learn</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#questions" class="nav-link text-white">Questions</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#instructors" class="nav-link text-white">Instructors</a>
-                    </li>
-                </ul>
-            </div>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-drk bg-secondary text-secondary py-3"
+    >
+      <div class="container">
+        <a href="#" class="navbar-brand text-white">Developer Bootcamp</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            class="bi"
+            fill="white"
+            viewBox="0 0 16 16"
+          >
+            <path
+              full-rule
+              d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+            ></path>
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#learn" class="nav-link text-white">What you'll learn</a>
+            </li>
+            <li class="nav-item">
+              <a href="#questions" class="nav-link text-white">Questions</a>
+            </li>
+            <li class="nav-item">
+              <a href="#instructors" class="nav-link text-white">Instructors</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
+    <section class="bg-secondary text-white p-5 text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Become a <span class="text-warning">Web Developer</span></h1>
+            <p class="lead my-4">
+              As a jack of all trades (and master of quite a few), a full-stack
+              engineer can get a project done from start to finish. In this
+              Career Path, you’ll begin with the front-end, move on to the
+              back-end, then learn to connect the two. By the time you’re done,
+              you’ll have the well-rounded skills needed to enter this in-demand
+              job market.
+            </p>
+            <button class="btn btn-primary btn-lg">Start Enrollment</button>
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="./img/showcase.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
